@@ -1,0 +1,44 @@
+div {
+  text-align: center;
+}
+.parent11 {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  align-items: center;
+}
+
+.parent12 {
+  display: flex;
+  flex-direction: row;
+}
+
+.parent21 {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+}
+
+.parent22 {
+  display: flex;
+  flex-direction: row;
+}
+
+.parent31 {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+}
+
+.parent32 {
+  display: flex;
+  flex-direction: row;
+}
+
+.child1 {
+  width: 25%;
+}
+
+.child2 {
+  width: 50%;
+}

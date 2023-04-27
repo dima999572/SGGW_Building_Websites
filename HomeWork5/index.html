@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script defer src="js/script.js"></script>
+    <title>Laby 5</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" action="">
+        <h1>Cwiczenia 5</h1>
+        <div class="input-control">
+          <label for="username">Imię:</label>
+          <input id="username" name="username" type="text" type="text" />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="surname">Nazwisko:</label>
+          <input id="surname" name="surname" type="text" type="text" />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="street">Ulica:</label>
+          <input id="street" name="street" type="text" type="text" />
+          <div class="error"></div>
+        </div>
+        <div class="input-control unique">
+          <label>Miasto(nie obowiązkowe):</label>
+          <ul>
+            <li>
+              <input type="checkbox" id="Warszawa" class="city" />
+              <label for="Warszawa">Warszawa</label>
+            </li>
+            <li>
+              <input type="checkbox" id="Wrocław" class="city" />
+              <label for="Wrocław">Wrocław</label>
+            </li>
+            <li>
+              <input type="checkbox" id="Łódź" class="city" />
+              <label for="Łódź">Łódź</label>
+            </li>
+          </ul>
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="house_number">Number domu:</label>
+          <input id="house_number" name="house_number" type="number" />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+          <label for="apartament_number">Number mieszkania:</label>
+          <input
+            id="apartament_number"
+            name="apartament_number"
+            type="number"
+          />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-control unique">
+          <label>Prawko:</label>
+          <ul>
+            <li>
+              <input type="radio" name="prawko" id="mam" required />
+              <label for="mam">Mam</label>
+            </li>
+            <li>
+              <input type="radio" name="prawko" id="niemam" />
+              <label for="niemam">Nie mam</label>
+            </li>
+          </ul>
+          <div class="error"></div>
+        </div>
+
+        <div class="input-control unique">
+          <label>Plec:</label>
+          <ul>
+            <li>
+              <input type="radio" id="m" class="plec" name="plec" required />
+              <label for="m">M</label>
+            </li>
+            <li>
+              <input type="radio" id="k" class="plec" name="plec" />
+              <label for="k">K</label>
+            </li>
+          </ul>
+          <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+          <label for="comments">Uwagi:</label>
+          <input id="comments" name="comments" type="text" />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+          <label for="phone_number">Numer telefonu:</label>
+          <input
+            type="text"
+            id="phone_number"
+            name="phone_number"
+            placeholder="+48111222333"
+          />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+          <label for="date_of_birth">Data urodzenia:</label>
+          <input type="date" id="date_of_birth" name="date_of_birth" />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+          <label for="pesel"> Pesel:</label>
+          <input
+            type="text"
+            id="pesel"
+            name="pesel"
+            placeholder="12345678901"
+          />
+          <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+          <label for="index">Kod pocztowy:</label>
+          <input type="text" id="index" name="index" placeholder="xx-xxx" />
+          <div class="error"></div>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

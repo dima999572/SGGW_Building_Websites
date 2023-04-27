@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style3.css" />
+    <title>HomeWork3Ex3</title>
+  </head>
+  <body>
+    <div class="flex_container">
+      <form action="">
+        <div>
+          <label for="name">Imię:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div>
+          <label for="surname">Nazwisko:</label>
+          <input type="text" id="surname" name="surname" required />
+        </div>
+
+        <div class="item">
+          <label for="street">Ulica:</label>
+          <input type="text" id="street" name="street" required />
+        </div>
+
+        <div>
+          <label>Miasto</label>
+          <ul>
+            <li>
+              <input type="checkbox" name="miasto" id="Warszawa" />
+              <label for="Warszawa">Warszawa</label>
+            </li>
+            <li>
+              <input type="checkbox" name="miasto" id="Wrocław" />
+              <label for="Wrocław">Wrocław</label>
+            </li>
+            <li>
+              <input type="checkbox" name="miasto" id="Łódź" />
+              <label for="Łódź">Łódź</label>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <label for="house_nr">Numer domu</label>
+          <input type="number" id="house_nr" name="house_nr" />
+        </div>
+
+        <div>
+          <label for="apartament_nr">Numer mieszkania</label>
+          <input type="number" id="apartament_nr" name="apartament_nr" />
+        </div>
+
+        <div>
+          <label>Prawko:</label>
+          <ul>
+            <li>
+              <input type="radio" name="prawko" id="mam" />
+              <label for="mam">Mam</label>
+            </li>
+            <li>
+              <input type="radio" name="prawko" id="niemam" />
+              <label for="niemam">Nie mam</label>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <label>Plec:</label>
+          <ul>
+            <li>
+              <input type="radio" id="m" class="plec" name="plec" />
+              <label for="m">M</label>
+            </li>
+            <li>
+              <input type="radio" id="k" class="plec" name="plec" />
+              <label for="k">K</label>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <label for="uwagi">Uwagi:</label>
+          <input type="text" id="uwagi" name="uwagi" />
+        </div>
+
+        <div>
+          <label for="tel_nr">Numer telefonu</label>
+          <input
+            type="tel"
+            id="tel_nr"
+            name="tel_nr"
+            placeholder="+48111222333"
+          />
+        </div>
+
+        <div>
+          <label for="date_of_birth">Data urodzenia</label>
+          <input type="date" id="date_of_birth" name="date_of_birth" />
+        </div>
+
+        <div>
+          <label for="pesel"> Pesel:</label>
+          <input
+            type="text"
+            id="pesel"
+            name="pesel"
+            placeholder="12345678901"
+          />
+        </div>
+
+        <div>
+          <label for="index">Kod pocztowy</label>
+          <input type="text" id="index" name="index" placeholder="xx-xxx" />
+        </div>
+
+        <div>
+          <input type="submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  vertical-align: middle;
+}
+main.table {
+  width: 82vw;
+  height: 90vh;
+  background-color: whitesmoke;
+
+  box-shadow: 0 0.4rem 0.8rem #0005;
+  border-radius: 0.8rem;
+}
+.table-header {
+  height: 10%;
+  padding: 0.8rem 1rem;
+}
+.table-body {
+  width: 85%;
+  background-color: #fffb;
+  margin: 0.8rem auto;
+  border-radius: 0.6rem;
+
+  overflow: auto;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+  padding: 1rem;
+}
+thead th {
+  background-color: #d5d1defe;
+}

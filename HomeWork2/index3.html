@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomeWork2Ex3</title>
+    <style>
+      table {
+        border-spacing: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <table>
+        <tr>
+          <td>Imię:</td>
+          <td><input type="text" name="name" required /></td>
+        </tr>
+        <tr>
+          <td>Nazwisko:</td>
+          <td><input type="text" name="surname" required /></td>
+        </tr>
+        <tr>
+          <td>Ulica:</td>
+          <td><input type="text" name="street" required /></td>
+        </tr>
+        <tr>
+          <td>Miasto:</td>
+          <td>
+            <input type="checkbox" name="miasto" id="Warszawa" />
+            <label for="Warszawa">Warszawa</label>
+            <br />
+            <input type="checkbox" name="miasto" id="Wrocław" />
+            <label for="Wrocław">Wrocław</label>
+            <br />
+            <input type="checkbox" name="miasto" id="Łódź" />
+            <label for="Łódź">Łódź</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Numer domu:</td>
+          <td><input type="number" name="house_nr" /></td>
+        </tr>
+        <tr>
+          <td>Numer mieszkania:</td>
+          <td><input type="number" name="apartament_nr" /></td>
+        </tr>
+        <tr>
+          <td>Prawko:</td>
+          <td>
+            <input type="radio" name="prawko" id="mam" />
+            <label for="mam">Mam</label>
+            <br />
+            <input type="radio" name="prawko" id="niemam" />
+            <label for="niemam">Nie mam</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Pleć:</td>
+          <td>
+            <input type="radio" name="plec" />
+            <label>M</label>
+            <br />
+            <input type="radio" name="plec" />
+            <label>K</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Uwagi:</td>
+          <td><input type="text" name="uwagi" /></td>
+        </tr>
+        <tr>
+          <td>Numer telefonu:</td>
+          <td>
+            <input type="tel" name="tel_nr" placeholder="+48111222333" />
+          </td>
+        </tr>
+        <tr>
+          <td>Data urodzenia:</td>
+          <td><input type="date" name="date_of_birth" /></td>
+        </tr>
+        <tr>
+          <td>Pesel:</td>
+          <td>
+            <input type="text" placeholder="12345678901" name="pesel" />
+          </td>
+        </tr>
+        <tr>
+          <td>Kod pocztowy:</td>
+          <td><input type="text" placeholder="xx-xxx" name="index" /></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
