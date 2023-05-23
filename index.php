@@ -48,5 +48,9 @@
     <a href="/HomeWork7/main.php">
       <p>Zadanie 1</p>
     </a>
+    <h3>Laboratorium 9</h3>
+    <a href="/HomeWork9/index.php">
+      <p>Zadanie 1</p>
+    </a>
   </body>
 </html>
